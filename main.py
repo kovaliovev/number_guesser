@@ -1,7 +1,7 @@
 import random
 
 
-play = input('Enter "S" to start')
+play = input('Enter "S" to start \n')
 while play.lower() == 's':
     print("Please choose the game language")
     leng = input('en for english or uk for ukrainian \n')
