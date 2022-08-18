@@ -22,7 +22,7 @@ while play.lower() == 's':
                 trying = int(input('Занадто мало, спробуйте ще раз \n'))
                 count += 1
         print(f'Вiтаю, ви вiдгадали! Кiлькiсть ваших спроб: {count}')
-        play = input('Введ iть "S", щоб знову грати чи щось  iнше, щоб вийти \n')
+        play = input('Введiть "S", щоб знову грати чи щось iнше, щоб вийти \n')
 
     elif leng.lower() == 'en':
         print('The number is guessed, try to guess it as soon as possible!')
